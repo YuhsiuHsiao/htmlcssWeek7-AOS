@@ -1,0 +1,209 @@
+/*.layout.*/
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  display: block;
+}
+body{
+  font-family: "Bruno Ace SC", serif;
+  line-height: 1.5;
+}
+.container{
+  max-width: 1296px;
+  margin: 0 auto;
+}
+img{
+  vertical-align: bottom;
+}
+
+
+/*.component.*/
+.button{
+  padding: 12px 24px;
+  border-radius: 32px;
+  display: inline-block;
+}
+
+/*.pages.*/
+nav a, nav li{
+  color: #d1d1d1;
+  font-weight: 400;
+}
+.slogan{
+  width: 636px;
+}
+.introduction{
+  background-image: url(../images/background-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro {
+  width: 526px;
+}
+.intro img{
+  margin-right: 16px;
+}
+.intro img:last-child {
+  margin-right: 0px;
+}
+.abouts{
+  padding: 160px;
+}
+.aboutList{
+  width: 636px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.aboutDesc{
+  width: 526px;
+}
+.aboutList li{
+  width: calc(50% - 12px);
+  border: 1px solid rgba(227, 227, 227, 1);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+}
+.contact{
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  padding: 96px 0;
+}
+.contact ul{
+  margin-left: 113px;
+}
+.social-btn{
+  width: 162px;
+  height: 162px;
+  overflow: hidden;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
+  transition: all 300ms;
+}
+.social-btn:hover{
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+  transition: all 300ms;
+}
+.projects h2{
+  width: 746px;
+  margin-right: 0;
+}
+
+/*.utils.*/
+h1{
+  font-size: 128px;
+}
+h2{
+  font-size: 64px;
+}
+h3{
+  font-size: 20px;
+}
+.fs-1{
+  font-size: 32px;
+}
+.fs-2{
+  font-size: 24px;
+}
+.fs-3{
+  font-size: 20px;
+}
+.fs-64{
+  font-size: 64px;
+}
+.text-primary{
+  color: #00FFA3;
+}
+.text-white{
+  color: white;
+}
+.text-light{
+  color: #D1D1D1;
+}
+.text-center{
+  text-align: center;
+}
+.text-end{
+  text-align: right;
+}
+.bg-black{
+  background: black   ;
+}
+.bg-white{
+  background: white   ;
+}
+.mt-auto{
+  margin-top: auto;
+}
+.ml-auto{
+  margin-left: auto;
+}
+.me-4{
+  margin-right: 16px;
+}
+.me-5{
+  margin-right: 20px;
+}
+.me-6{
+  margin-right: 24px;
+}
+.mb-1{
+  margin-bottom: 4px;
+}
+.mb-4{
+  margin-bottom: 16px;
+}
+.mb-7{
+  margin-bottom: 28px;
+}
+.mb-8{
+  margin-bottom: 32px;
+}
+.mb-9{
+  margin-bottom: 36px;
+}
+.my-160{
+  margin: 160px 0;
+}
+.py-10{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.py-160{
+  padding: 160px 0;
+}
+.p-4{
+  padding: 16px;
+}
+.d-block{
+  display: block;
+}
+.d-flex{
+  display: flex;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.justify-content-center{
+  justify-content:center;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.justify-content-end{
+  justify-content: flex-end;
+}
+.align-items-center{
+  align-items: center;
+}
+.align-items-end{
+  align-items: flex-end;
+}
+.flex-column{
+  flex-direction: column;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
